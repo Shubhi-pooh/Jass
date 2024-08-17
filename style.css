@@ -1,0 +1,353 @@
+html, body {
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container {
+  /* width: 100vb; */
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0;
+  /* margin-top: 0;
+  margin-bottom: 0; */
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /* display: flex;
+  flex-direction: row; */
+  position: absolute;
+}
+
+.leftpane{
+    width: 16%;
+    border-right: 1px solid lightgray;
+    margin-left: 0;
+    position: fixed;
+}
+
+.midpane {
+    width: 54%;
+    margin: 0 auto;
+}
+
+.rightpane {
+    width: 25%;
+    margin: 0;
+}
+
+.mid-right-pane {
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.feed-section {
+ margin-top: 25px;
+}
+
+.feed {
+   border-bottom: 1px solid lightgray;
+    width: 65%;
+    margin: 0 auto 30px;
+    padding-bottom: 10px;
+}
+
+.feed-img {
+  border-radius: 3px;
+  width: 100%;
+}
+
+.profile {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    align-items: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid palevioletred;
+}
+
+.profile-name {
+    font-size: 15px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.post-time {
+    color: gray;
+    margin-left: -2%;
+    font-size: 14px;
+}
+
+.dot {
+    color: gray;
+    margin-left: -2%;
+    width: 80px;
+}
+
+.three-dots {
+    margin-left: 250px;
+    font-weight: 200;
+    
+}
+
+.feed-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.left-icons {
+    display: flex;
+    
+    gap: 20px;
+}
+
+.likes {
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+.comment {
+    color: gray;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.add-comment {
+    color: gray;
+    font-size: 15px;
+}
+
+.name-comment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-comment-emoji {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emoji-smile {
+    color: gray;
+    width: 12px;
+    height: 12px;
+}
+
+.stories {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.story {
+    border-radius: 50%;
+    padding: 2px;
+    width: 65px;
+    height: 65px;
+    border: 2px solid palevioletred;
+}
+
+.story-name {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.rightpane-content {
+    margin: 0;
+    padding: 0 10px;
+}
+.suggseted-info{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#self-info {
+    margin-top: 35px;
+}
+
+.profile-info {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.right-profile-pic {
+    border-radius: 50%;
+    border: 1px solid rgb(202, 198, 198);
+    width: 45px;
+    height: 45px;
+}
+
+.right-profile-name {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.right-user-name {
+    font-size: 14px;
+    margin: 0;
+    color: gray;
+}
+
+.right-profile-switch{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.switch {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(0, 149, 246);
+}
+
+.switch:hover { 
+    color: black;
+    cursor: pointer;
+}
+
+.see-all {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.see-all:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+#suggested-block {
+    margin: 25px 0 1px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.suggested-column-first {
+    margin-top: 25px;
+}
+
+.suggested-for-you {
+    font-size: 13px;
+    margin: 0;
+    font-weight: bold;
+    color: #737373;
+}
+
+.right-suggested-name {
+    font-size: 12px;
+    margin: 0;
+    color: gray;
+}
+
+.rightpane-bottom-div1 {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    height: 8px;
+}
+.rightpane-bottom-div2 {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.rightpane-bottom-text {
+    font-size: 12px;
+    color: lightgray;
+}
+.rightpane-bottom-text2 {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.small-dot {
+    color: lightgray;
+    margin-top: -13px;
+    width: 15px;
+}
+
+.leftpane-content {
+    width: 100%;
+    height: 100vh;
+    padding: 0 8px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.insta-symbol {
+    width: 108px;
+    height: 29px;
+    margin-top: 35px;
+}
+
+.leftpane-mid {
+    margin-top: 55px;
+    flex-grow: 1;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 50px;
+    padding-left: 2px;
+    box-sizing: border-box;
+}
+
+.nav-item:hover {
+    background-color: #f0f2f5;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.nav-text {
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+#home {
+    font-weight: bolder;
+}
+
+.left-profile-pic {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+/* .leftpane-bottom {
+    margin-top: 130px;
+    flex-grow: 1;
+} */
+
+
+
+
